@@ -33,18 +33,18 @@ npm install
 node index.js  or  npx nodemon index.js
 
 ``
-### The server will run at:http://localhost:3000
+ The server will run at:http://localhost:3000
 
-## API Endpoints
--1. GET /
-Default route to test the connection.
--2. GET /users
-Get all users.
-3. GET /users/:id
-Get a specific user by ID.
-4. POST /users
-Add a new user.
-5. PUT /users/:id
-Update a user's name and approval status.
-6. DELETE /users/:id
-Delete a user by ID.
+ API Endpoints
+GET /
+ - Default route to test the connection.
+GET /users
+- Get all users.
+GET /users/:id
+- Get a specific user by ID.
+POST /users
+- Add a new user.
+PUT /users/:id
+- Update a user's name and approval status.
+DELETE /users/:id
+- Delete a user by ID.
